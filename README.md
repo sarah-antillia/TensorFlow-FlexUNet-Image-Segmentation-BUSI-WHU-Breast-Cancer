@@ -10,16 +10,10 @@ and a PNG
 <a href="https://www.kaggle.com/datasets/orvile/busi-whu-breast-cancer-ultrasound-image-dataset">
 <b>BUSI_WHU: Breast Cancer Ultrasound Image Dataset</b> </a> on the kaggle.com.
 <br><br>
-
 <b>Data Augmentation Strategy</b><br>
 To address the limited size of images and masks of the original BUSI-WHU-Breast-Cancer dataset,
 which contains 927 image and mask pairs,
- we used an offline augmentation tool based on <a href="https://github.com/sarah-antillia/Image-Deformation-Tool">Image-Deformation-Tool</a>
- <!--
- <a href="./generator/ImageMaskDatasetGenerator.py">ImageMaskDatasetGenerator.py</a>
- -->
-  to generate the augmented dataset.
-<br>
+ we used an offline augmentation tool based on <a href="https://github.com/sarah-antillia/Image-Deformation-Tool">Image-Deformation-Tool</a> to generate the augmented dataset.
 <br>
 <hr>
 <b>Actual Image Segmentation for BUSI-WHU-Breast-Cancer Images</b><br>
